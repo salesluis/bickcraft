@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  height: 2000px;
+  font-family: Arial, Helvetica, san;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+h1, ul, p{
+  margin: 0px;
+}
