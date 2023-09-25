@@ -6,6 +6,7 @@
 body{
   height: 2000px;
   font-family: Arial, Helvetica, san;
+  color: #111111;
 }
 
 ul {
@@ -23,6 +24,10 @@ img{
   display: block;
 }
 
-h1, ul, p{
+h1, h2, h3 ul, p{
   margin: 0px;
+}
+
+img[src$=".jpg"]{
+  border-radius: 5px;
 }
