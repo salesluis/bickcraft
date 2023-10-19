@@ -7,7 +7,7 @@
   <title>seguros | Bikcraft</title>
   <meta name="description" content="seguros">
   <link rel="stylesheet" href="./style.css">
-  <!-- fontes -->
+  <link rel="preload" href="./style.css" as="style"> <!-- fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -47,7 +47,7 @@
           <li>Suporte 08h as 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+        <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
       </div>
 
       <div class="seguro-itens">
@@ -60,7 +60,7 @@
           <li>Desconto em parceiros</li>
           <li>Acesso ao clube Bikcraft</li>
         </ul>
-        <a class="botao" href="./orcamento.html">Inscreva-se</a>
+        <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
       </div>
     </div>
   </main>
@@ -132,7 +132,7 @@
         <dd class="font-2-s cor-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorum cum libero, distinctio autem soluta eligendi consequatur est quam culpa qui maiores. Illum expedita eum labore maiores veniam molestias ut.</dd>
       </div>
     </dl>
-    
+
   </article>
 
   <footer class="footer-bg">
@@ -166,6 +166,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft alguns direitos reservados</p>
     </div>
   </footer>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
